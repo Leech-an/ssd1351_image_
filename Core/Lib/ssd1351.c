@@ -73,8 +73,8 @@ void SSD1351_Init() {
     }
     SSD1351_WriteCommand(0xAE); // DISPLAYOFF
     SSD1351_WriteCommand(0xB3); // CLOCKDIV
- SSD1351_WriteCommand(0xF1); // 7:4 = Oscillator Frequency, 3:0 = CLK Div Ratio (A[3:0]+1 = 1..16)
-    //uint8_t data[] = { 0xF1 }; SSD1351_WriteData(data, 1);
+ //SSD1351_WriteCommand(0xF1); // 7:4 = Oscillator Frequency, 3:0 = CLK Div Ratio (A[3:0]+1 = 1..16)
+    uint8_t data[] = { 0xF1 }; SSD1351_WriteData(data, 1);
     SSD1351_WriteCommand(0xCA); // MUXRATIO
     {
         uint8_t data[] = { 0x7F }; // 127
