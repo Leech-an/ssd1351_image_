@@ -1,0 +1,14 @@
+../Core/Lib/ssd1351.c:5:13:SSD1351_Select	8	static
+../Core/Lib/ssd1351.c:9:6:SSD1351_Unselect	8	static
+../Core/Lib/ssd1351.c:13:13:SSD1351_Reset	8	static
+../Core/Lib/ssd1351.c:22:13:SSD1351_WriteCommand	16	static
+../Core/Lib/ssd1351.c:27:13:SSD1351_WriteData	24	static
+../Core/Lib/ssd1351.c:39:13:SSD1351_SetAddressWindow	32	static
+../Core/Lib/ssd1351.c:58:6:SSD1351_Init	72	static
+../Core/Lib/ssd1351.c:154:6:SSD1351_DrawPixel	24	static
+../Core/Lib/ssd1351.c:167:13:SSD1351_WriteChar	40	static
+../Core/Lib/ssd1351.c:186:6:SSD1351_WriteString	32	static
+../Core/Lib/ssd1351.c:212:6:SSD1351_FillRectangle	32	static
+../Core/Lib/ssd1351.c:232:6:SSD1351_FillScreen	24	static
+../Core/Lib/ssd1351.c:236:6:SSD1351_DrawImage	24	static
+../Core/Lib/ssd1351.c:247:6:SSD1351_InvertColors	16	static
